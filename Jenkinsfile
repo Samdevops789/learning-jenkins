@@ -12,9 +12,9 @@
 //
 //  //triggers { pollSCM('* * * * *') }
 //
-//  tools {
-//    maven 'MAVEN'
-//  }
+  tools {
+    maven 'MAVEN'
+  }
 //
 //  parameters {
 //    string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
